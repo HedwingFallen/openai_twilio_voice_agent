@@ -1,4 +1,4 @@
-# Agente de Voz (Twilio Media Streams + OpenAI Realtime) — do zero
+# Agente de Voz (Twilio Media Streams + OpenAI Realtime) 
 
 ## O que isso faz
 - Recebe áudio de uma ligação (Twilio Media Streams)
@@ -57,4 +57,4 @@ No console do Twilio (Voice > Phone Numbers):
 - Se não ouvir nada: confira se a URL é `wss://...` e se o caminho `/twilio` bate.
 - Se a IA responde mas o áudio sai mudo: confirme que o `audio/pcmu` está configurado na session.update e que você está enviando `media` pro Twilio.
 
-Boa diversão. Telefone + IA é a mistura mais caótica e poderosa do rolê.
+Boa diversão.
